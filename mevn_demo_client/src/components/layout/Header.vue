@@ -1,6 +1,6 @@
 <template>
 	<header class="header">
-		<h1>PublicationHub</h1>
+		<h1>Publication</h1>
 	</header>
 </template>
 

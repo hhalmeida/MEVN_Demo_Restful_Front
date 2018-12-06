@@ -4,6 +4,8 @@ import * as keys from './keys'
 const baseURL =
   process.env.NODE_ENV === 'local' ? keys.LOCAL_BASE_URL : keys.PROD_BASE_URL
 
+// eslint-disable-next-line no-console
+
 export default () => {
   return axios.create({
     baseURL: baseURL,
